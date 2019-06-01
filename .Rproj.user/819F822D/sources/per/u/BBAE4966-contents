@@ -1,0 +1,10 @@
+iris=iris
+ls()
+library("dplyr")
+
+iris3 %>% 
+  mutate(sumVar1 = select(., contains("Sepal")) %>% rowSums()) %>% 
+  mutate(sumVar2 = select(., contains("Petal")) %>% rowSums()) %>% 
+  head 
+
+colnames(iris2)

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clases on Clases RStudio UC</title>
+    <link>/categories/clases/</link>
+    <description>Recent content in Clases on Clases RStudio UC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/clases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Clase 2</title>
+      <link>/07/05/2018/clase02/</link>
+      <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/07/05/2018/clase02/</guid>
+      <description>#INTRODUCCIÓN
+R Markdown Este es un ejercicio del uso de markdown, una herramienta que viene incluida en RStudio y que pernite construir informes en base a los análisis realizados en R. Para mayor información vea: http://rmarkdown.rstudio.com.
+1.Comando search () permite ver los packages actuales en funcionamiento.
+search()  2.La siguiente función -library(help=“base”)- permite explorar y conocer las funciones básicas de R.
+library(help=“base”)  3.Ejercico básico
+(a) Calcule: $24 * 5 - e^2$</description>
+    </item>
+    
+    <item>
+      <title>Clase 1</title>
+      <link>/07/04/2018/clase01/</link>
+      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/07/04/2018/clase01/</guid>
+      <description>INTRODUCCIÓNR MarkdownEste es un ejercicio del uso de markdown, una herramienta que viene incluida en RStudio y que pernite construir informes en base a los análisis realizados en R. Para mayor información vea: http://rmarkdown.rstudio.com.
+1.Comando search () permite ver los packages actuales en funcionamiento.
+search()2.La siguiente función -library(help=“base”)- permite explorar y conocer las funciones básicas de R.
+library(help=“base”) 3.Ejercico básico
+Calcule: \(24 * 5 - e^2\)</description>
+    </item>
+    
+  </channel>
+</rss>

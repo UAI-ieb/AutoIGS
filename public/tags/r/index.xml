@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Clases RStudio UC</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on Clases RStudio UC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Clase 1</title>
+      <link>/07/04/2018/clase01/</link>
+      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/07/04/2018/clase01/</guid>
+      <description>INTRODUCCIÓNR MarkdownEste es un ejercicio del uso de markdown, una herramienta que viene incluida en RStudio y que pernite construir informes en base a los análisis realizados en R. Para mayor información vea: http://rmarkdown.rstudio.com.
+1.Comando search () permite ver los packages actuales en funcionamiento.
+search()2.La siguiente función -library(help=“base”)- permite explorar y conocer las funciones básicas de R.
+library(help=“base”) 3.Ejercico básico
+Calcule: \(24 * 5 - e^2\)</description>
+    </item>
+    
+  </channel>
+</rss>

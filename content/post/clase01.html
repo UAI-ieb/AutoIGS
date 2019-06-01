@@ -1,0 +1,51 @@
+---
+title: Clase 1
+author: Hernan Madrid
+date: '2018-04-07'
+slug: clase01
+categories:
+  - Clases
+tags:
+  - Clases
+
+---
+
+
+
+<div id="introduccion" class="section level1">
+<h1>INTRODUCCIÓN</h1>
+<div id="r-markdown" class="section level2">
+<h2>R Markdown</h2>
+<p>Este es un ejercicio del uso de markdown, una herramienta que viene incluida en RStudio y que pernite construir informes en base a los análisis realizados en R. Para mayor información vea: <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>1.Comando search () permite ver los packages actuales en funcionamiento.</p>
+<pre><code>search()</code></pre>
+<p>2.La siguiente función -<strong>library(help=“base”)</strong>- permite explorar y conocer las funciones básicas de R.</p>
+<pre><code>library(help=“base”) </code></pre>
+<p>3.Ejercico básico</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Calcule: <span class="math inline">\(24 * 5 - e^2\)</span></p></li>
+<li><p>calcule: log(5) + <span class="math inline">\(\frac{phi}{\sqrt12}\)</span></p></li>
+</ol>
+</div>
+</div>
+<div id="objetos-en-r" class="section level1">
+<h1>OBJETOS EN R</h1>
+<p>Ejercicio: La función <strong>mean()</strong> obtiene el promedio de los datos. Calcule el promedio de 3,4,5,6,7,8.¿Cuál es el resultado?.</p>
+<p><strong>Solución incorrecta</strong></p>
+<pre class="r"><code>mean(3,4,5,6,7,8)</code></pre>
+<pre><code>## [1] 3</code></pre>
+<p><strong>Solución correcta</strong>, que no olvida que R es un <strong><em>lenguaje de programación orientado a objetos</em></strong>, por ende la secuencia de números debe ser abordada como un <em>objeto VECTOR</em>. Para ello se usa la letra “c” seguido de paréntesis. La x es una nueva variable a la cual se le ha asignado el vector, de esa forma después de calcula la media de x, donde está contendio los valores del vector antes construidos.</p>
+<pre class="r"><code>x=c(3,4,5,6,7,8)
+mean(x)</code></pre>
+<pre><code>## [1] 5.5</code></pre>
+<p>Un objeto es una colección de información indexada, bajo un nombre previamente definido diferenciando mayúsculas de minúsculas. Para asignar un objeto, utilizaremos los símbolos “=”, “-&gt;” o “&lt;-”.</p>
+<p>Cada asignación puede ir en una fila diferente, o bien seguido de “;”.</p>
+<div id="including-plots" class="section level2">
+<h2>Including Plots</h2>
+<p>You can also embed plots, for example:</p>
+<p><img src="/post/clase01_files/figure-html/pressure-1.png" width="672" /></p>
+<pre><code>##      Mobile      Juneau     Phoenix Little Rock Los Angeles  Sacramento 
+##        67.0        54.7         7.0        48.5        14.0        17.2</code></pre>
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+</div>
+</div>

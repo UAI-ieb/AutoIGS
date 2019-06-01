@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1559358125940.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2716618430",
+    "id" : "158093CA",
+    "lastKnownWriteTime" : 1559359123,
+    "last_content_update" : 1559359123176,
+    "path" : "C:/Users/DS/OneDrive - Instituto de Estudios Bancarios Guiilermo Subercaseaux(1)/7.Desarrollo/AutoMat/AutoIGS/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "22,14",
+        "scrollLine" : "9"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

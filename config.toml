@@ -1,0 +1,50 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Clases RStudio UC"
+theme = "minimal"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+relativeURLs = true
+
+[permalinks]
+    post = "/:day/:month/:year/:slug/"
+    
+[[menu.main]]
+    name = " Inicio"
+    url = "/"
+[[menu.main]]
+    name = "Procesos SIES"
+    url = "/about"
+[[menu.main]]
+    name = "Procesos INDICES"
+    url = "/post/index.html"
+    [[menu.main]]
+    name = "Z Diplo"
+    url = "http://diplomados.uc.cl/acceso.php"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/rstudio"
+
+[params]
+    description = "Herramientas Computacionales"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+    #font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-light"
+    highlightLanguages = ["r","go", "haskell", "kotlin", "scala", "swift"]
+
+    MathJaxCDN = ".//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
